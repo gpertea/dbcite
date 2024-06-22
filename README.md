@@ -27,8 +27,14 @@ Builds the app for production to the `dist` folder.<br>
 It correctly bundles Solid in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+
+See `package.json` for the build command used, it currently builds for this deployment base directory: `/devel/dbcite/`.
 
 ## Deployment
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+You can deploy the `dist` folder to any static host provider.<br>
+E.g. copy the `dist/` content to srv16:
+````
+rsync -av dist/ srv16:~/html/devel/dbcite/
+````
+
