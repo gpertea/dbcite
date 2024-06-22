@@ -5,7 +5,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/devel/dbcite",
     "serve": "vite preview"
   },
   "license": "MIT",
@@ -17,7 +17,6 @@
   "dependencies": {
     "babel-preset-solid": "^1.8.17",
     "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3",
     "solid-js": "^1.8.17"
   }
 }
